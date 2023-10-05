@@ -1,0 +1,975 @@
+.logo-area {
+    background: linear-gradient(109.6deg, rgb(67, 80, 103) 1.2%, rgb(34, 63, 96) 911%);
+    height: 87px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.video-section video {
+    height: 350px;
+    width: 100%;
+    
+}
+
+  
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+ 
+
+.about-us p {
+    font-size:large;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffff;
+
+}
+
+.second-gear{
+    padding-left: 230px;
+    padding-top: 15px;
+}
+
+.about-us {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    background: linear-gradient(109.6deg, rgb(67, 80, 103) 1.2%, rgb(34, 63, 96) 911%);
+
+}
+
+.about-box2 {
+    background: linear-gradient(109.6deg, rgb(201, 204, 212) 1.2%, rgb(159, 163, 169) 911%);
+    height: auto;
+    width: 100%;
+    border-radius: 22px;
+    margin-bottom: 30px;
+    padding: 30px;
+
+
+}
+
+.about-box2:hover {
+    transform: translateY(-3px);
+    transition: 0.2s ease-in-out;
+}
+
+.about-box1 {
+    background: linear-gradient(109.6deg, rgb(201, 204, 212) 1.2%, rgb(159, 163, 169) 911%);
+    padding: 30px;
+    margin-top: 40px;
+    margin-right: 50px;
+    border-radius: 22px;
+    margin-bottom: 30px;
+}
+
+.video-section video {
+    height: 310px;
+    width: 100%;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+
+
+
+
+.gear-icon {
+    padding-left: 185px;
+}
+
+.btn1 {
+    position: relative;
+    display: block;
+    color: black;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+}
+
+.btn::before {
+    background-color: #e6e6e6;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.btn1::before {
+    width: 0%;
+    height: 100%;
+}
+
+.btn1:hover::before {
+    width: 50%;
+}
+
+.navbar-nav {
+    margin: auto
+}
+
+h1 {
+    font-family: oswald;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #e1c8c8;
+    text-shadow: 2px 2px black;
+}
+
+#box1 {
+    padding-left: 70px;
+    padding-bottom: 30px;
+
+}
+
+#box1:hover {
+    transform: translateY(-10px);
+    transition: transform 0.2s ease;
+    /* Add a smooth transition effect */
+}
+
+#box2 {
+    padding-left: 70px;
+    padding-bottom: 30px;
+
+}
+
+#box2:hover {
+    transform: translateY(-10px);
+    transition: transform 0.2s ease;
+    /* Add a smooth transition effect */
+}
+
+.aboutbox {
+    padding: 20px;
+    background-color: pink;
+    border-radius: 20px;
+
+}
+
+.line2 {
+    height: 4px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-ki-image img {
+    padding-left: 60px;
+    height: 400px;
+    width: 100%;
+}
+
+.about-ki-image video {
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+}
+
+
+.about-aboutus {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-size: larger;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-ki-image {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.last-section {
+    background-color: #cbc1c1;
+}
+
+#col1 h1 {
+    padding-left: 38px;
+    padding-top: 0px;
+
+}
+
+.h1 {
+    color: white;
+}
+
+#col1 p {
+    padding-left: 40px;
+    padding-top: 0px;
+}
+
+.quick-links h5 {
+    padding-top: 30px;
+}
+
+#col2 {
+    padding-left: 150px;
+}
+
+.footer {
+    background-color: #e6e6e6;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 25px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.button-25 {
+    background-color: #FF8E8E;
+    margin-top: 25px;
+    border-radius: 30px;
+
+}
+
+.button-25:hover {
+    background-color: transparent;
+    color: #505050;
+    border: 1px solid black;
+
+}
+
+.box-p3 {
+    padding: 40px;
+    background-color: pink;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+
+.box-p3 {
+    transition: transform 0.2s ease;
+    /* Add a smooth transition effect */
+}
+
+.box-p3:hover {
+    transform: translateY(-10px);
+    /* Lift the box on hover */
+}
+
+.box-p2 {
+    padding: 40px;
+    background-color: #efe0e0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.copyright {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    background-color: #bdb1b1;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.row-legend {
+    padding-top: 40px;
+}
+
+.review {
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+.quick-links h3 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding-top: 70px;
+}
+
+.quick-links ul li a {
+    text-decoration: none;
+    color: #320f0f;
+    font-weight: 400;
+    position: relative;
+
+}
+
+.quick-links ul li a::after {
+    content: "";
+    /* Create an empty pseudo-element */
+    position: absolute;
+    /* Position it absolutely within the link */
+    left: 0;
+    /* Position it at the left edge of the link */
+    right: 0;
+    /* Position it at the right edge of the link */
+    bottom: -2px;
+    /* Adjust the distance of the underline from the text */
+    border-bottom: 2px solid transparent;
+    /* Create a transparent underline */
+    transition: border-color 0.3s;
+    /* Add a smooth transition effect for the border-color */
+}
+
+.quick-links ul li a:hover::after {
+    border-color: black;
+    /* Change the border-color on hover */
+}
+
+.quick-links ul {
+    list-style: none;
+    padding-left: 4px;
+
+}
+
+
+.box-p {
+    background-color: #efe0e0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+.carousel-item img {
+    height: 2px;
+    /* Adjust this value as needed */
+    object-fit: cover;
+    /* This ensures the image covers the entire carousel item */
+}
+
+
+body {
+    overflow-x: hidden;
+
+}
+
+.square-img-container {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    /* 1:1 Aspect Ratio (square) */
+    overflow: hidden;
+}
+
+.square-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Set the height to 100% to fill the container */
+    max-height: 100%;
+    /* Ensure the image does not exceed the height of the container */
+}
+
+.card {
+    border: none;
+    box-shadow: none;
+    height: auto;
+    width: 100%;
+    padding-top: 28px;
+}
+
+.center-area {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+.center-area2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+
+
+/* Add a class for the carousel caption animation */
+.show-carousel-caption {
+    opacity: 0;
+    /* Initial opacity set to 0 */
+    animation: fadeIn 1s ease-in forwards;
+    /* Animation definition */
+}
+
+.middle-heading h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+
+}
+
+.card-body {
+    margin: 0;
+    padding-left: 0;
+}
+
+.middle-heading {
+    /* padding: 40px; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
+.middle-heading .row .line {
+    width: 10%;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+}
+
+.middle-heading .row .line2 {
+    width: 35%;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+}
+
+
+
+/* Define the fadeIn animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    /* Start with opacity 0 */
+    100% {
+        opacity: 0.6;
+    }
+
+    /* End with opacity 1 */
+}
+
+.row img {
+    padding-top: 1px;
+}
+
+.navbar {
+    background-color: #cbc1c1;
+    height: auto;
+
+}
+
+.nav-item .nav-link {
+    color: #320f0f;
+    font-size: medium;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #cbc1c1;
+}
+
+dropdown-menu .dropdown-item {
+    font-size: medium;
+}
+
+.hidden {
+    display: none;
+}
+
+.ropdown-menu .dropdown-item:hover {
+    background-color: lightcyan;
+}
+
+.carousel-item img {
+    height: 700px;
+    /* Adjust this value as needed */
+    width: 100%;
+    object-fit: cover;
+    /* Crop the image to fit the container while maintaining aspect ratio */
+}
+
+.carousel-caption {
+    padding-bottom: 300px;
+}
+
+.container {
+    position: relative;
+}
+
+/* Style the carousel caption */
+.carousel-caption {
+    background-color: #505050;
+    padding: 30px;
+    /* Adjust padding as needed */
+    opacity: 0.6;
+    /* Adjust the opacity to your preference */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    /* Add a shadow effect */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* Center the text inside the caption */
+    width: 60%;
+    height: 35%;
+}
+
+
+/* Style the heading inside the caption */
+.carousel-caption h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    /* Text color for better contrast */
+}
+
+.button-24 {
+    background-color: #FF8E8E
+}
+
+.button-24:hover {
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    color: #fff;
+}
+
+.sm {
+    padding-top: 20px;
+}
+
+.sm .btn {
+    background-color: transparent;
+    color: #ffff;
+}
+
+.contact-button:hover {
+    transform: translateY(-1px);
+    transition: 0.3s ease-in;
+
+}
+
+.sm .btn:hover {
+
+
+    border: 1px solid lightgrey;
+    color: #fff;
+}
+
+@media (max-width: 1200px) {
+
+
+    .carousel-caption {
+        background-color: #505050;
+        padding: 30px;
+        /* Adjust padding as needed */
+        opacity: 0.6;
+        /* Adjust the opacity to your preference */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        /* Add a shadow effect */
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        /* Center the text inside the caption */
+        width: 80%;
+        height: 50%;
+    }
+
+ 
+   
+    .video-section video {
+        height: 450px;
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 60px;
+    }
+
+    .navbar-nav {
+        margin-left: 30px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .carousel-item img {
+        height: 600px;
+        /* Adjust this value as needed */
+        width: 100%;
+        object-fit: cover;
+        /* Crop the image to fit the container while maintaining aspect ratio */
+    }
+
+    .copyright {
+        padding: 15px;
+    }
+
+
+
+    .center-area {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 38px;
+    }
+
+
+
+}
+
+@media (max-width: 991.98px) {
+    .carousel-caption {
+        background-color: #505050;
+        padding: 30px;
+        /* Adjust padding as needed */
+        opacity: 0.6;
+        /* Adjust the opacity to your preference */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        /* Add a shadow effect */
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        /* Center the text inside the caption */
+        width: 75%;
+        height: 55%;
+
+    }
+   
+    .video-section video {
+        height: 310px;
+        width: 100%;
+        padding-top: 70px;
+        padding-left: 100px;
+    }
+
+    
+    .copyright {
+        padding: 15px;
+    }
+
+
+    #col1 img {
+        padding-left: 25px;
+        padding-top: 20px;
+        height: 70px;
+        width: 100%;
+    }
+
+    #col1 p {
+        padding-left: 30px;
+        padding-top: 15px;
+    }
+
+    .quick-links h5 {
+        padding-top: 30px;
+    }
+
+    #col2 {
+        padding-left: 90px;
+    }
+
+
+    .navbar-toggler-icon {
+        padding-left: 25px;
+    }
+
+
+    .video-section video {
+        height: 450px;
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 60px;
+    }
+
+
+}
+
+@media (max-width: 767.98px) {
+
+    .center-area {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 38px;
+    }
+
+    .ab1 {
+        padding-left: 60px;
+    }
+    .navbar-toggler-icon {
+        padding-left: 15px;
+    }
+
+    .copyright {
+        padding: 5px;
+    }
+
+    .video-section video {
+        height: 310px;
+        width: 100%;
+        padding-top: 70px;
+       padding-left: 2px;
+    }
+
+    .about-box2 {
+        background: linear-gradient(109.6deg, rgb(201, 204, 212) 1.2%, rgb(159, 163, 169) 911%);
+        height: auto;
+        width: 100%;
+        border-radius: 22px;
+        margin-bottom: 30px;
+        padding: 30px;
+    
+    
+    }
+
+    .carousel-caption {
+        background-color: #505050;
+        padding: 30px;
+        /* Adjust padding as needed */
+        opacity: 0.6;
+        /* Adjust the opacity to your preference */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        /* Add a shadow effect */
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        /* Center the text inside the caption */
+        width: 70%;
+        height: 68%;
+    }
+.b2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    .middle-heading .row .line {
+        width: 15%;
+        height: 3px;
+        background-color: black;
+        margin: auto;
+    }
+
+    .boxes3 {
+        padding-bottom: 20px;
+    }
+
+    #col1 {
+        display: none;
+    }
+
+    .quick-links h5 {
+        padding-top: 30px;
+        font-size: large;
+    }
+
+    .quick-links ul li a {
+        font-size: medium;
+    }
+
+    .last-section {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+}
+
+
+@media (max-width: 575.98px) {
+
+    .center-area {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 38px;
+    }
+
+    .footer p {
+        font-size: medium;
+    }
+
+    .navbar-toggler-icon {
+        padding-left: 15px;
+    }
+
+    .quick-links ul li a {
+        font-size: small;
+    }
+
+    .quick-links h5 {
+        font-size: medium;
+
+    }
+
+    #col1 {
+        display: none;
+    }
+
+    #col2 {
+        padding-left: 15px;
+    }
+
+    .carousel-caption {
+        background-color: #505050;
+        padding: 30px;
+        /* Adjust padding as needed */
+        opacity: 0.6;
+        /* Adjust the opacity to your preference */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        /* Add a shadow effect */
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        /* Center the text inside the caption */
+        width: 70%;
+        height: 83%;
+    }
+
+    .sm {
+        padding-top: 5px;
+    }
+
+    .middle-heading .row .line {
+        width: 20%;
+        height: 3px;
+        background-color: black;
+        margin: auto;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 433px) {
+
+    .center-area {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 38px;
+    }
+
+    .navbar-toggler-icon {
+        padding-left: 15px;
+    }
+
+    .carousel-caption {
+        background-color: #505050;
+        padding: 20px;
+        /* Adjust padding as needed */
+        opacity: 0.6;
+        /* Adjust the opacity to your preference */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        /* Add a shadow effect */
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        /* Center the text inside the caption */
+        width: 80%;
+        height: 95%;
+    }
+
+    .sm {
+        padding-top: 2px;
+    }
+
+    .middle-heading .row .line {
+        width: 20%;
+        height: 3px;
+        background-color: black;
+        margin: auto;
+    }
+
+    .footer p {
+        font-size: small;
+    }
+}
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* This class is defining the styling for the container element that holds each
+testimonial in a testimonial grid. */
+.testimonial-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* This class is defining the styling for the avatar image */
+.testimonial-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+.testimonial-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-text {
+    margin-bottom: 20px;
+}
+
+.testimonial-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.testimonial-role {
+    font-size: 16px;
+    color: #666666;
+}
+
+/* This media query in CSS that targets screens with a maximum width of 600 pixels. */
+@media screen and (max-width: 600px) {
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+}
